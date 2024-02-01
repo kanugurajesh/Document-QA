@@ -70,7 +70,7 @@ def user_input(user_question):
 
 def main():
     st.set_page_config("Chat PDF")
-    st.header("Upload your medical PDF Files and ask questions from them and get personalized answers")
+    st.header("Upload your pdf files and start asking questions")
 
     user_question = st.text_input("Ask a Question from the PDF Files")
 
